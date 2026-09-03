@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Firebase & secrets
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+firebase-debug.log
+
+# Editors
+.vscode/
+.idea/
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & cache
+*.log
+npm-debug.log*
+.cache/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
